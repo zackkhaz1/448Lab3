@@ -1,0 +1,104 @@
+body
+{
+    background-image: url("clippers.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+iframe
+{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#bio
+  {
+
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px 1px 0 #000,
+                  1px 1px 0 #000;
+    font-family: Impact, fantasy;
+  }
+
+
+#list
+  {
+    color: black;
+    font-size: 20;
+    font-family: Impact, fantasy;
+  }
+
+#ballmerCap
+  {
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px 1px 0 #000,
+                  1px 1px 0 #000;
+   font-family: OCR A Std, monospace;
+   font-size: 42;
+  }
+
+#websites
+  {
+    font-family: OCR A Std, monospace;
+    font-size: 25;
+    width: 92%;
+
+  }
+
+img.ballmer
+  {
+    height: 241px;
+    width: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a
+  {
+    text-align: right;
+    color: white;
+    font-size: 20;
+  }
+
+a:hover
+  {
+    background-color: green;
+  }
+
+p
+{
+  text-align: right;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+  font-family: Impact, fantasy;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blue; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul
+{
+  list-style-type: disc;
+  background-color: rgba(255, 255, 255, 0.7);
+   width: 15%;
+
+}
